@@ -4,12 +4,7 @@
 
 # Data Analysis with Python – Final Project
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
-[![Libraries](https://img.shields.io/badge/Libraries-Pandas%2C%20NumPy%2C%20Matplotlib%2C%20Seaborn%2C%20scikit--learn-yellow)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-Final project implementation for IBM’s Data Analyst Professional Certificate (Course 7 – Python Project for Data Analysis).
-This repository demonstrates complete data analysis workflows, including data cleaning, EDA, feature engineering, and predictive modeling.
+This project is my full implementation of the Course 7 capstone in IBM’s Data Analyst Professional Certificate. It provides end-to-end analysis pipelines—data cleaning, EDA, feature engineering, and predictive modeling—across two real-world case studies (medical insurance charges and King County housing). The repo includes organized notebooks, requirements, and instructions to reproduce results and figures.
 
 ---
 
@@ -95,8 +90,3 @@ jupyter notebook
 ```
 
 ---
-
----
-
-## License
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
