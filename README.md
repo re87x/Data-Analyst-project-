@@ -96,12 +96,6 @@ jupyter notebook
 
 ---
 
-## Sample Visualizations
-
-| Charges Distribution | Price vs Sqft Living |
-|----------------------|----------------------|
-| ![Charges Distribution](images/charges_dist.png) | ![Price vs Sqft](images/price_sqft.png) |
-
 ---
 
 ## License
