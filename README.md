@@ -1,23 +1,108 @@
-# Housing Sales Analysis
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM logo" width="160">
+</p>
 
-This project focuses on analyzing housing sales data using Python. The main goal is to explore the relationships between home features (such as number of rooms, size, etc.) and sale prices, and to build a predictive model for estimating prices.
+# Data Analysis with Python – Final Project
 
-## Tools Used
-- pandas for loading and cleaning the data
-- matplotlib and seaborn for visualizations
-- scikit-learn for building regression models (Linear and Ridge)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Libraries](https://img.shields.io/badge/Libraries-Pandas%2C%20NumPy%2C%20Matplotlib%2C%20Seaborn%2C%20scikit--learn-yellow)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Analysis Steps
-1. Download the dataset from an external CSV source
-2. Explore and clean the data (handle missing values)
-3. Analyze correlations between features
-4. Split the data and train a predictive model
-5. Evaluate the model's performance
+Final project implementation for IBM’s Data Analyst Professional Certificate (Course 7 – Python Project for Data Analysis).
+This repository demonstrates complete data analysis workflows, including data cleaning, EDA, feature engineering, and predictive modeling.
 
-## File
-- `E-commerce_Analytics.ipynb`: Contains the full code for data analysis and model building
+---
+
+## Project Overview
+
+This repository contains two case studies:
+
+### 1) Insurance Cost Analysis
+Analyze a medical insurance dataset to explore factors affecting charges and build regression models.
+
+Key steps:
+- Load and clean `insurance.csv`.
+- Perform Exploratory Data Analysis (EDA) with statistical summaries and visualizations.
+- Identify correlations between age, BMI, smoker status, and charges.
+- Build and evaluate:
+  - Single-variable Linear Regression.
+  - Multivariable Linear Regression.
+  - Ridge Regression for improved performance.
+
+---
+
+### 2) House Sales in King County, USA
+Predict housing prices based on property features using a dataset from King County (including Seattle).
+
+Key steps:
+- Load and preprocess `kc_house_data.csv` (feature engineering for house age and renovation status).
+- Analyze price distributions and correlations with features like square footage, grade, and location.
+- Build and evaluate:
+  - Multivariable Linear Regression.
+  - Ridge Regression with cross-validation for optimal alpha selection.
+  - Optional polynomial transformations for non-linear relationships.
+
+---
+
+## Skills Demonstrated
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering and selection
+- Predictive modeling (Linear and Ridge Regression)
+- Model evaluation (R², MAE, RMSE)
+- Visualization of correlations, distributions, and residuals
+
+---
+
+## Technologies Used
+- Python 3.12
+- pandas – Data manipulation
+- numpy – Numerical computing
+- matplotlib and seaborn – Visualization
+- scikit-learn – Machine learning models and evaluation
+
+---
+
+## Project Structure
+```
+project-folder/
+├─ insurance_analysis.ipynb       # Part 1 – Insurance cost analysis
+├─ house_sales_analysis.ipynb     # Part 2 – King County house prices
+├─ requirements.txt
+├─ README.md
+└─ data/
+   ├─ insurance.csv
+   └─ kc_house_data.csv
+```
+
+---
 
 ## How to Run
-1. Open the notebook using Jupyter or Google Colab  
-2. Run the cells in order  
-3. Make sure you're connected to the internet to download the dataset
+1) Clone the repository:
+```bash
+git clone <repo-url>
+cd <repo-folder>
+```
+
+2) Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3) Run the Jupyter Notebooks:
+```bash
+jupyter notebook
+```
+
+---
+
+## Sample Visualizations
+
+| Charges Distribution | Price vs Sqft Living |
+|----------------------|----------------------|
+| ![Charges Distribution](images/charges_dist.png) | ![Price vs Sqft](images/price_sqft.png) |
+
+---
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
